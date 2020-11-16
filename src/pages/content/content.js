@@ -5,6 +5,9 @@ import Image2 from "../../assets/images/image2.png";
 import Image3 from "../../assets/images/image3.png";
 import Image4 from "../../assets/images/image4.png";
 import Image5 from "../../assets/images/image5.png";
+
+
+import Responsive from "./slider";
 const Content = () => {
   return (
     <>
@@ -26,7 +29,9 @@ const Content = () => {
       <div className="content2" id="OurServices">
         <h4 className="servicesText">OUR SERVICES</h4>
         <div className="bottom_border_line"></div>
-        <div className="service1">01</div>
+        <div className="content_service">
+          <div className="content_service1">
+          <div className="service1">01</div>
         <h3 className="servicesText2">Residential</h3>
         <img alt="" className="servicesImage" src={Image2} />
         <h5 className="servicesText3">
@@ -34,20 +39,27 @@ const Content = () => {
           construction, intermediation, marketing and sale of Housing Estates at
           various locations within Nigeria.
         </h5>
-        <div className="service2">02</div>
+          </div>
+      <div>
+      <div className="service2">02</div>
         <h3 className="servicesText2">Commercial</h3>
         <img alt="" className="servicesImage" src={Image3} />
         <h5 className="servicesText3">
           With the expansion of the banking and aviation industries, there has
           been an upsurge in the demand for office accommodation.
         </h5>
-        <div className="service2">03</div>
+      </div>
+       <div>
+       <div className="service2">03</div>
         <h3 className="servicesText2">Industrial</h3>
         <img alt="" className="servicesImage" src={Image4} />
         <h5 className="servicesText3">
           Our foray into industrial type properties has opened avenues for us to
           deploy competencies in oil & gas and telecom based industries.
         </h5>
+        </div>
+       </div>
+        
       </div>
       <div className="content3" id="OurWorks">
         <h4 className="worksText">OUR WORKS</h4>
@@ -72,6 +84,7 @@ const Content = () => {
                 </div>
               </div>
             </div>
+          
             <div class="carousel-item">
               <img src={Image5} class="d-block w-100" alt="..." />
               <div class="hoverText">
@@ -103,14 +116,18 @@ const Content = () => {
           </div>
         </div>
       </div>
+    
       <div className="content4" id="ContactUs">
         <h4 className="servicesText">CONTACT US</h4>
         <div className="bottom_border_line"></div>
+        <div className="contact_details">
         <div className="phone_number">(042) 290 806</div>
         <div className="email_address">mail@copengroup.org.ng</div>
         <div className="address">
           Copen House, Plot 32, Ebeano Housing Estate New Haven Junction, Enugu.
         </div>
+        </div>
+       
       </div>
     </>
   );

@@ -11,7 +11,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <>
-        <div className="">
+         <div className="">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#" onClick={this.scrollToTop}>
               CopenHagen
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
               <div class="navbar-nav">
                 <Link
                   activeClass="active"
-                  to="AboutUs"
+                  to=""
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -53,7 +53,7 @@ export default class Navbar extends Component {
                 </Link>
                 <Link
                   activeClass="active"
-                  to="AboutUs"
+                  to="OurServices"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -64,7 +64,7 @@ export default class Navbar extends Component {
                 </Link>
                 <Link
                   activeClass="active"
-                  to="AboutUs"
+                  to="OurWorks"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -75,7 +75,7 @@ export default class Navbar extends Component {
                 </Link>
                 <Link
                   activeClass="active"
-                  to="AboutUs"
+                  to="ContactUs"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -87,7 +87,9 @@ export default class Navbar extends Component {
               </div>
             </div>
           </nav>
-        </div>
+        </div> 
+        
+      
       </>
     );
   }

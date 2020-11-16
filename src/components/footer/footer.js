@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className="footer">
       <i class="fab fa-twitter"></i>
       <i class="fab fa-linkedin-in"></i>
       <a href="mailto:mail@copengroup.org.ng"></a><i class="far fa-envelope"></i>

@@ -1,3 +1,24 @@
-.nav-link > .active {
-    border-bottom: 1px solid #333;
+ .active {
+    border-bottom: 3px solid #FFFFFF
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+@media (min-width:990px)
+{
+   
+    .navbar-expand-lg{
+        display: none;
+    }
+    
+}
+

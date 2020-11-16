@@ -1,0 +1,26 @@
+footer{
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+      margin-bottom: 40px;
+      width: 100%;
+      
+  }
+
+  i{
+      margin-right: 40px;
+      font-size: 24px;
+      color:#828282;
+  }
+
+  .fa-twitter{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #828282;;
+  }
+
+  .fa-linkedin-in{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #828282;;
+  }
