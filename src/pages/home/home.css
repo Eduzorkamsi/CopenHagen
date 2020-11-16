@@ -3,7 +3,8 @@
 }
 
 .mobilebanner {
-  background-image: url("..//../assets/images/mobilebanner.png");
+   background-image: url("..//../assets/images/mobilebanner.png"); 
+/* background-color: brown; */
   background-repeat: no-repeat; 
   background-size: cover;
   object-fit: cover;
@@ -48,5 +49,30 @@ text-align: center;
 @media (min-width: 990px){
   .mobilebanner{
     height: 900px;
+  }
+
+  .bannertext1{
+    font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.2em;
+
+  }
+
+  .bannertext2{
+    font-weight: 900;
+font-size: 72px;
+line-height: 86px;
+letter-spacing: 0.2em;
+  }
+
+  .bannertext3{
+    font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+letter-spacing: 0.05em;
   }
 }

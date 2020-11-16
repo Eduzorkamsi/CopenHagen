@@ -2,9 +2,8 @@ import React, { Component } from "react";
 // import styled from 'styled-components';
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./navbar.css";
-import DesktopNavbar from "./navbardesktop";
 
-export default class Navbar extends Component {
+export default class DesktopNavbar extends Component {
   scrollToTop = () => {
     scroll.scrollToTop();
   };
@@ -12,39 +11,34 @@ export default class Navbar extends Component {
   render() {
     return (
       <>
-         <div className="">
-           
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#" onClick={this.scrollToTop}>
+<div >
+{/* <nav className="desktop_navbar">
+<a class="navbar-brand" href="#" onClick={this.scrollToTop}>
               CopenHagen
             </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <Link
+</nav> */}
+<div className="desktop_navbar" id='nav'>
+{/* <a class="navbar-logo" href="#" onClick={this.scrollToTop}>
+              CopenHagen
+            </a>  */}
+
+ <nav>   
+   <ul className="nav">
+      <li>  <Link
                   activeClass="active"
-                  to=""
+                  to="/"
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}
                   class="nav-link"
+                  onClick={this.scrollToTop}
                 >
                   Home
-                </Link>
-                <Link
+                </Link></li>
+      <li>  <Link
                   activeClass="active"
-                  to="AboutUs"
+                  to="AboutUs2"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -52,8 +46,8 @@ export default class Navbar extends Component {
                   class="nav-link"
                 >
                   About Us
-                </Link>
-                <Link
+                </Link></li>
+      <li>   <Link
                   activeClass="active"
                   to="OurServices"
                   spy={true}
@@ -63,8 +57,8 @@ export default class Navbar extends Component {
                   class="nav-link"
                 >
                   Our Services
-                </Link>
-                <Link
+                </Link></li>
+      <li> <Link
                   activeClass="active"
                   to="OurWorks"
                   spy={true}
@@ -74,8 +68,8 @@ export default class Navbar extends Component {
                   class="nav-link"
                 >
                   Our Works
-                </Link>
-                <Link
+                </Link></li>
+      <li> <Link
                   activeClass="active"
                   to="ContactUs"
                   spy={true}
@@ -85,15 +79,15 @@ export default class Navbar extends Component {
                   class="nav-link"
                 >
                   Contact Us
-                </Link>
-              </div>
-            </div>
-          </nav>
-        </div> 
-        
-      
-      </>
+                </Link></li>
+   </ul>
+</nav>
+ 
+  </div>
+</div>
+
+
+</>
     );
   }
 }
-

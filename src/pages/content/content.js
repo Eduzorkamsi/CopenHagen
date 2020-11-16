@@ -6,8 +6,6 @@ import Image3 from "../../assets/images/image3.png";
 import Image4 from "../../assets/images/image4.png";
 import Image5 from "../../assets/images/image5.png";
 
-
-import Responsive from "./slider";
 const Content = () => {
   return (
     <>
@@ -15,6 +13,7 @@ const Content = () => {
         <h4 className="aboutText">ABOUT US</h4>
         <div className="bottom_border_line"></div>
         <img alt="" className="aboutImage" src={Image1} />
+    
         <h3 className="aboutText2">Easy Real Estate</h3>
         <h5 className="aboutText3">
           Copen Services Limited is a well - articulated and organised firm with
@@ -25,7 +24,32 @@ const Content = () => {
           in public and private service, to pool together their resources for
           the service of humanity.
         </h5>
+        
+      
       </div>
+       <div className="content11" id="AboutUs2">
+        <h4 className="aboutText">ABOUT US</h4>
+        <div className="about_desktop">
+        <div className="bottom_border_line"></div>
+        <div className="about_desktop2">
+        <h3 className="aboutText2">Easy Real Estate</h3>
+        <h5 className="aboutText3">
+          Copen Services Limited is a well - articulated and organised firm with
+          diversified interests in Real Estate, Construction, Services and
+          Consultancy. Copen Services Limited is the fruit of the desire of a
+          number of young, honest, knowledgeable and experienced professionals,
+          with over 20 years cognate, post - graduation / practical experience
+          in public and private service, to pool together their resources for
+          the service of humanity.
+        </h5>
+        </div>
+       
+        </div>
+        
+        <img alt="" className="aboutImage" src={Image1} />
+      
+      </div> 
+
       <div className="content2" id="OurServices">
         <h4 className="servicesText">OUR SERVICES</h4>
         <div className="bottom_border_line"></div>
