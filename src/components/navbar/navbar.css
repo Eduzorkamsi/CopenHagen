@@ -39,11 +39,10 @@ a:not([href]):not([class]) {
 }
   
   .nav {
-    float: right;
-    list-style: none;    /*gets rid of bullet points*/ 
-      
-      /*padding: 0px -10px 0px -10px; */
-   
+    display: flex;
+align-items: center;
+    list-style: none;   
+  
   }
   .nav > li {                                                             /*max-width: 768px*/
       display:Inline-block;

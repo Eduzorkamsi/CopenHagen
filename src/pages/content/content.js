@@ -30,7 +30,8 @@ const Content = () => {
        <div className="content11" id="AboutUs2">
         <h4 className="aboutText">ABOUT US</h4>
         <div className="about_desktop">
-        <div className="bottom_border_line"></div>
+        <img alt="" className="aboutImage" src={Image1} />
+        {/* <div className="bottom_border_line"></div> */}
         <div className="about_desktop2">
         <h3 className="aboutText2">Easy Real Estate</h3>
         <h5 className="aboutText3">
@@ -46,7 +47,7 @@ const Content = () => {
        
         </div>
         
-        <img alt="" className="aboutImage" src={Image1} />
+        
       
       </div> 
 
@@ -65,6 +66,7 @@ const Content = () => {
         </h5>
           </div>
       <div>
+        
       <div className="service2">02</div>
         <h3 className="servicesText2">Commercial</h3>
         <img alt="" className="servicesImage" src={Image3} />
@@ -73,7 +75,7 @@ const Content = () => {
           been an upsurge in the demand for office accommodation.
         </h5>
       </div>
-       <div>
+       <div className="content_service3">
        <div className="service2">03</div>
         <h3 className="servicesText2">Industrial</h3>
         <img alt="" className="servicesImage" src={Image4} />
