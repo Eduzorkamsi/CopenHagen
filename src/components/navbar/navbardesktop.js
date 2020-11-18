@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import styled from 'styled-components';
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./navbar.css";
+import copen6 from "..//../assets/images/copen6.png"
 
 export default class DesktopNavbar extends Component {
   scrollToTop = () => {
@@ -12,19 +13,18 @@ export default class DesktopNavbar extends Component {
     return (
       <>
 <div >
-{/* <nav className="desktop_navbar">
-<a class="navbar-brand" href="#" onClick={this.scrollToTop}>
-              CopenHagen
-            </a>
-</nav> */}
+
 <div className="desktop_navbar" id='nav'>
-{/* <a class="navbar-logo" href="#" onClick={this.scrollToTop}>
-              CopenHagen
-            </a>  */}
+
 
  <nav>   
    <ul className="nav">
-      <li>  <Link
+   <a class="navbar-logo" href="#" alt="logo" onClick={this.scrollToTop}>
+              <img className="copen_logo" src={copen6}/>
+            </a>  
+       <li>  
+      
+        <Link
                   activeClass="active"
                   to="/"
                   spy={true}
@@ -32,10 +32,10 @@ export default class DesktopNavbar extends Component {
                   offset={-70}
                   duration={500}
                   class="nav-link"
-                  onClick={this.scrollToTop}
+                 
                 >
                   Home
-                </Link></li>
+                </Link></li> 
       <li>  <Link
                   activeClass="active"
                   to="AboutUs2"

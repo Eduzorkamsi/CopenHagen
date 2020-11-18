@@ -2,7 +2,8 @@ import React, { Component } from "react";
 // import styled from 'styled-components';
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./navbar.css";
-import DesktopNavbar from "./navbardesktop";
+import copen6 from "..//../assets/images/copen6.png";
+import HamburgerOverlay from "./overlay";
 
 export default class Navbar extends Component {
   scrollToTop = () => {
@@ -16,9 +17,11 @@ export default class Navbar extends Component {
            
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#" onClick={this.scrollToTop}>
-              CopenHagen
+             <img src={copen6} style={{objectFit:"contain", width:"67px", height:"26px"}} />
             </a>
-            <button
+            <HamburgerOverlay/>
+            
+            {/* <button
               class="navbar-toggler"
               type="button"
               data-toggle="collapse"
@@ -31,9 +34,9 @@ export default class Navbar extends Component {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <Link
+                 <Link
                   activeClass="active"
-                  to=""
+                  to="/#"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -41,7 +44,7 @@ export default class Navbar extends Component {
                   class="nav-link"
                 >
                   Home
-                </Link>
+                </Link> 
                 <Link
                   activeClass="active"
                   to="AboutUs"
@@ -87,7 +90,7 @@ export default class Navbar extends Component {
                   Contact Us
                 </Link>
               </div>
-            </div>
+            </div> */}
           </nav>
         </div> 
         

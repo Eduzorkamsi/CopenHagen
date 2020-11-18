@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-linkedin-in"></i>
-      <a href="mailto:mail@copengroup.org.ng"></a><i class="far fa-envelope"></i>
+      <a href="https://twitter.com/copengroup" ><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/copengroup/"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:mail@copengroup.org.ng"><i class="far fa-envelope"></i></a>
       </footer>
     </>
   );

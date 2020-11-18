@@ -5,6 +5,8 @@ import Image2 from "../../assets/images/image2.png";
 import Image3 from "../../assets/images/image3.png";
 import Image4 from "../../assets/images/image4.png";
 import Image5 from "../../assets/images/image5.png";
+import Image6 from "../../assets/images/image6.png";
+import Responsive from "./slider";
 
 const Content = () => {
   return (
@@ -112,7 +114,7 @@ const Content = () => {
             </div>
           
             <div class="carousel-item">
-              <img src={Image5} class="d-block w-100" alt="..." />
+              <img src={Image6} class="d-block w-100" alt="..." />
               <div class="hoverText">
                 <div className="caption">Goshen Estate</div>
                 <div className="caption_description">
@@ -142,7 +144,63 @@ const Content = () => {
           </div>
         </div>
       </div>
-    
+      <div className="content33" id="OurWorks">
+        <h4 className="worksText">OUR WORKS</h4>
+        <div className="bottom_border_line"></div>
+        <Responsive/>
+        {/* <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src={Image5} class="d-block w-100" alt="..." />
+              <div class="hoverText">
+                <div className="caption">Goshen Estate</div>
+                <div className="caption_description">
+                  We acquired the site from the Enugu State Government,
+                  conceptualized the layout design, constructed the housing
+                  units as in the approved building plans, deployed all
+                  infrastructure – roads, water electricity and perimeter
+                  fencing according to the development plan, including
+                  surrounding works and limited beautification
+                </div>
+              </div>
+            </div>
+          
+            <div class="carousel-item">
+              <img src={Image5} class="d-block w-100" alt="..." />
+              <div class="hoverText">
+                <div className="caption">Goshen Estate</div>
+                <div className="caption_description">
+                  We acquired the site from the Enugu State Government,
+                  conceptualized the layout design, constructed the housing
+                  units as in the approved building plans, deployed all
+                  infrastructure – roads, water electricity and perimeter
+                  fencing according to the development plan, including
+                  surrounding works and limited beautification
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src={Image5} class="d-block w-100" alt="..." />
+              <div class="hoverText">
+                <div className="caption">Goshen Estate</div>
+                <div className="caption_description">
+                  We acquired the site from the Enugu State Government,
+                  conceptualized the layout design, constructed the housing
+                  units as in the approved building plans, deployed all
+                  infrastructure – roads, water electricity and perimeter
+                  fencing according to the development plan, including
+                  surrounding works and limited beautification
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       */}
+      </div>
       <div className="content4" id="ContactUs">
         <h4 className="servicesText">CONTACT US</h4>
         <div className="bottom_border_line"></div>
