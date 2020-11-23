@@ -5,6 +5,8 @@ import Content from "../../pages/content/content";
 import "./home.css";
 import Arrow1 from "../../assets/icons/Arrow1.svg";
 import DesktopNavbar from "../../components/navbar/navbardesktop";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 const Home = () => {
   return (
     <>
@@ -17,8 +19,30 @@ const Home = () => {
           <h5 className="bannertext3">
             Our area of specialization includes; Surveying, Architecture,
             Engineering, Project Management, e.t.c.
-          </h5>
+          </h5>   <Link
+                activeClass="active"
+                to="AboutUs"
+               
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                class="nav-link"
+              >
           <img alt="" className="arrow1" src={(Arrow1)}/>
+          </Link>
+          <Link
+                activeClass="active"
+                to="AboutUs2"
+               
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                class="nav-link"
+              >
+          <img alt="" className="arrow2" src={(Arrow1)}/>
+          </Link>
         </div>
         <Content />
       </div>

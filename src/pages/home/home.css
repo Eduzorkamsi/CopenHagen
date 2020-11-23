@@ -46,7 +46,26 @@ color: #FFFFFF;
 text-align: center;
 }
 
+@media (min-width: 2100px){
+  .home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+  }
+}
+
+@media (max-width:990px){
+  .arrow2{
+    display: none;
+  }
+}
+
 @media (min-width: 990px){
+.arrow1{
+  display: none;
+}
+
   .mobilebanner{
     height: 900px;
   }

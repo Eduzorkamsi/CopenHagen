@@ -8,6 +8,7 @@ import ex from "..//../assets/icons/ex.svg"
 
 function HamburgerOverlay() {
   const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
   const target = useRef(null);
 
   return (
@@ -19,7 +20,7 @@ function HamburgerOverlay() {
         <Overlay target={target.current} show={show} placement="right">
           {/* <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> */}
             <div class="navbar-nav">
-                <img className="exmarksspot" src={ex}/>
+              <Button variant=""  onClick={handleClose}><img className="exmarksspot" src={ex}/></Button>  
               <Link
                 activeClass="active"
                 to="AboutUs"
@@ -29,7 +30,7 @@ function HamburgerOverlay() {
                 duration={500}
                 class="nav-link"
               >
-                About Us
+               <Button variant=""  onClick={handleClose}>About Us</Button> 
               </Link>
               <Link
                 activeClass="active"
@@ -40,7 +41,7 @@ function HamburgerOverlay() {
                 duration={500}
                 class="nav-link"
               >
-                Our Services
+               <Button variant=""  onClick={handleClose}> Our Services </Button>
               </Link>
               <Link
                 activeClass="active"
@@ -51,7 +52,7 @@ function HamburgerOverlay() {
                 duration={500}
                 class="nav-link"
               >
-                Our Works
+               <Button variant=""  onClick={handleClose}> Our Works </Button>
               </Link>
               <Link
                 activeClass="active"
@@ -62,7 +63,7 @@ function HamburgerOverlay() {
                 duration={500}
                 class="nav-link"
               >
-                Contact Us
+               <Button variant=""  onClick={handleClose}> Contact Us </Button>
               </Link>
             </div>
           {/* </div> */}
