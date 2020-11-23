@@ -147,59 +147,11 @@ const Content = () => {
       <div className="content33" id="OurWorks">
         <h4 className="worksText">OUR WORKS</h4>
         <div className="bottom_border_line"></div>
+        <div className="out_image_slider">
         <Responsive/>
-        {/* <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src={Image5} class="d-block w-100" alt="..." />
-              <div class="hoverText">
-                <div className="caption">Goshen Estate</div>
-                <div className="caption_description">
-                  We acquired the site from the Enugu State Government,
-                  conceptualized the layout design, constructed the housing
-                  units as in the approved building plans, deployed all
-                  infrastructure – roads, water electricity and perimeter
-                  fencing according to the development plan, including
-                  surrounding works and limited beautification
-                </div>
-              </div>
-            </div>
-          
-            <div class="carousel-item">
-              <img src={Image5} class="d-block w-100" alt="..." />
-              <div class="hoverText">
-                <div className="caption">Goshen Estate</div>
-                <div className="caption_description">
-                  We acquired the site from the Enugu State Government,
-                  conceptualized the layout design, constructed the housing
-                  units as in the approved building plans, deployed all
-                  infrastructure – roads, water electricity and perimeter
-                  fencing according to the development plan, including
-                  surrounding works and limited beautification
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src={Image5} class="d-block w-100" alt="..." />
-              <div class="hoverText">
-                <div className="caption">Goshen Estate</div>
-                <div className="caption_description">
-                  We acquired the site from the Enugu State Government,
-                  conceptualized the layout design, constructed the housing
-                  units as in the approved building plans, deployed all
-                  infrastructure – roads, water electricity and perimeter
-                  fencing according to the development plan, including
-                  surrounding works and limited beautification
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-       */}
+         
+      
       </div>
       <div className="content4" id="ContactUs">
         <h4 className="servicesText">CONTACT US</h4>

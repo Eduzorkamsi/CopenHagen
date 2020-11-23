@@ -127,12 +127,7 @@ export default class Responsive extends Component {
                 </div>
               </div>
           </div>
-          {/* <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
-          </div> */}
+      
         </Slider>
       </div>
     );

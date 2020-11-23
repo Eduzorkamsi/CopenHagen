@@ -18,6 +18,17 @@
     color: currentColor;
 }
 
+@media(min-width:990px){
+    .nav-link{
+        transform: none;
+        transition: none;
+    }
+
+    .active{
+        transform: none;
+        transition: none;
+    }
+}
 
 
 @media(max-width:990px){
@@ -51,6 +62,7 @@
     flex-direction: column;
     padding-top: 26px;
     align-items: center;
+   
    
 }
 

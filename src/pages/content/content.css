@@ -230,11 +230,12 @@
 
   .bottom_border_line {
     width: 30%;
-    margin-left: 10%;
+    margin-left: 10vw;
   }
 
   .servicesText {
-    margin-left: 10%;
+    margin-left: 10vw
+
   }
 
   .servicesImage {
@@ -262,11 +263,11 @@
   }
 
   .worksText {
-    margin-left: 10%;
+    margin-left: 10vw;
   }
 
   .carousel-item {
-    margin-left: 10%;
+    margin-left: 10vw;
     width: 540px !important;
     height: 540px;
   }
@@ -281,7 +282,7 @@
   }
 
   .contact_details {
-    margin-left: 10%;
+    margin-left: 10vw;
   }
 
   .desktophoverText {
@@ -383,4 +384,17 @@
   .aboutText3 {
     max-width: 400px;
   }
+}
+
+ @media (min-width: 2100px){
+
+  .image_slider {
+    margin-left: -10vw;
+}
+
+.out_image_slider{
+  margin-left: 20vw;
+  margin-right: -20vw;
+}
+
 }

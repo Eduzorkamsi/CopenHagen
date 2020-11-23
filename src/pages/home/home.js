@@ -13,7 +13,8 @@ const Home = () => {
       <Navbar />
       <div className="home">
         <div className="mobilebanner">
-        <DesktopNavbar/>
+        
+          <DesktopNavbar/>
           <h4 className="bannertext1">WE OFFER THE BEST</h4>
           <h1 className="bannertext2">REAL-ESTATE</h1>
           <h5 className="bannertext3">
@@ -44,9 +45,12 @@ const Home = () => {
           <img alt="" className="arrow2" src={(Arrow1)}/>
           </Link>
         </div>
+        <div className="body_content">
         <Content />
       </div>
       <Footer />
+          </div>
+     
     </>
   );
 };
